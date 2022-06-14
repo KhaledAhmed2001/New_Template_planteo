@@ -25,13 +25,11 @@ a{
 
 body{
     --tfont-family: 'Mukta Mahee';
-    /* height: 10000px; */
 }
 /* =================Start Navbar=========================== */
 .navbar{
     background: var(--navberBackground);
     padding: 22px 50px;
-    /* color: var(--color); */
     position: fixed;
     z-index: 5;
     width: 100%;
@@ -39,8 +37,6 @@ body{
 }
 
 .navbar .navbar-brand img{
-    /* font-size: 10px; */
-    /* width: 70px; */
     max-height: 40px;
 }
 .navbar .nav-item{
@@ -274,9 +270,7 @@ border-bottom:1px solid #f0f0f0 ;
 .navbar .nav-item.show .dropdown-menu{
     display: block;
 }
-.navbar span{
-    /* position: relative; */
-}
+
 .navbar .closeIcon {
     width: 5rem;
     height: 5rem;
@@ -297,10 +291,7 @@ border-bottom:1px solid #f0f0f0 ;
 font-size: 1.3rem;
     display: block;
 }
-.navbar span .fas {
-   
-    /* position: absolute; */
-}
+
 .navbar .icons a i{
     color: var(--TextColor);
 font-size: 1.5rem;
@@ -333,7 +324,7 @@ header::before{
     background-size:contain;
     background-size: 15rem;
     animation: headerImg 3s alternate infinite;
-    -webkit-animation:;
+    -webkit-animation: headerImg 3s alternate infinite;
 }
 @keyframes headerImg {
     0%{
@@ -518,8 +509,7 @@ header .row{
     -o-transform: translateY(-2rem);
     background: var(--TextColor);
 }
-.session-1 .card .card-img-top{
-}
+
 .session-1 .card .card-body{
     padding: 0;
 }
@@ -567,15 +557,6 @@ padding: 3rem 0 ;
     justify-content: center;
 }
 
-.about-us .about-img img{
-/* width: 1rem; */
-}
-.about-us .about-content{
-
-}
-.about-us .about-content .title{
-
-}
 .title span{
     color: var(--TextColor);
     font-weight: 600;
@@ -667,9 +648,6 @@ margin-bottom: 0;
     margin:-80px auto;
     background: #fff;
     text-align: center;
-    /* left: 10rem; */
-    /*top: 144.6rem;
-    /* */bottom: -101.2rem; */
     border-radius: 1.5rem;
     -webkit-border-radius: 1.5rem;
     -moz-border-radius: 1.5rem;
@@ -687,9 +665,7 @@ margin-bottom: 0;
     font-size: 1.5rem;
     font-weight: 600;
 }
-.session-animatad #counters_1{
 
-}
 
 /* <!-- ===================End session-animatad==================== --> */
 
@@ -751,9 +727,7 @@ margin-top: 4rem;
 .services .tab-content{
 margin-top: 6rem;
 }
-.services .tab-content .tab-pane{
 
-}
 .services .tab-content .tab-pane .img-services img{
     width: 100%;
 }
@@ -842,9 +816,9 @@ margin-bottom: 50px;
     padding: 14px 0 22px;
     border-radius: 5px;
     -webkit-border-radius:5px;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
 }
 .project .card .card-body a{
     display: block;
@@ -992,15 +966,13 @@ margin-bottom: 50px;
 .team .card .card-body .card-title{
 color: #fff;
 }
-.team .card .card-body .card-text{
 
-}
 .team .card .card-body .icons{
     transform:scale(.5) ;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform:scale(.5) ;
+    -moz-transform:scale(.5) ;
+    -ms-transform:scale(.5) ;
+    -o-transform:scale(.5) ;
     transition:all .3s ease ;
     -webkit-transition:all .3s ease ;
     -moz-transition:all .3s ease ;
@@ -1009,10 +981,10 @@ color: #fff;
 }
 .team .card .card-body:hover .icons{
     transform: scale(1);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 .team .card .card-body .icons a{
     color: #fff;
@@ -1123,9 +1095,7 @@ color: #fff;
 font-weight: 700;
 font-size: 18px;
 }
-.blog .card .card-body{
 
-}
 .blog .card .card-body .card-title a{
     color: #282828;
     font-weight: 600;
@@ -1302,7 +1272,7 @@ footer{
   .loding{
     width: 100%;
     height: 100%;
-    background-color: var(--textColor);
+    background-color: var(--TextColor);
     position:fixed;
     inset: 0;
     z-index: 999999999;
