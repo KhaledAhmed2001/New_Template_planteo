@@ -765,7 +765,7 @@ margin-right: 1rem;
 }
 /* <!-- ===================end session-services==================== --> */
 
-/* <!-- ===================stert session-PROJECT==================== --> */
+/* <!-- ===================start session-PROJECT==================== --> */
 .project{
 background: #f7f7f7;
 padding: 1.5rem 0;
@@ -875,11 +875,11 @@ margin-bottom: 50px;
     -o-border-radius:5px ;
     margin: 0 3px;
     background-color: var(--TextColor);
-    transition: all 4s ease-in;
-    -webkit-transition: all 4s ease-in;
-    -moz-transition: all 4s ease-in;
-    -ms-transition: all 4s ease-in;
-    -o-transition: all 4s ease-in;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
     opacity: .5;
 }
 .project button.owl-dot.active {
